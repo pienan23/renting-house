@@ -1,1 +1,384 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;0,800;0,900;1,700;1,900&family=Poppins:wght@100;200;300;500&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+}
+/* *******************************************start HEADER************************************************** */
+section {
+    margin:90px;
+   
+}
+section header nav {
+   width: 90%;
+  
+}
+section header nav .navbar{
+   display: flex;
+
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+ }
+ section header nav .navbar .nav-items{
+    display: flex;
+    flex-direction: row;
+    gap: 40Px;
+    align-items: center;
+  }
+  section header nav .navbar .nav-items li a{
+    font-family: roboto;
+    font-size: 18px;
+    color:  #475C46;
+    ;
+  }
+
+  section header nav .navbar .nav-items li a:hover{
+  
+    border-bottom:3px solid #0D4512;
+  }
+  section header .description .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    align-items: center;
+    padding-top: 30px;
+  }
+  section header .description .row .col:nth-child(1) h1{
+    font-family: roboto;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 110px;
+    color: #085C11E8;
+   }
+
+   section header .description .row .col:nth-child(1)  p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: #141E15;
+   }
+
+   
+   section header .description .row .col:nth-child(1)  button{
+    width: 213px;
+    height: 50px;
+    top: 717px;
+    left: 217px;
+    border-radius: 100px
+
+   }
+   section header .description .row .col:nth-child(1)  button:nth-child(1){
+    background: #0D4512;
+    color: white;
+   }
+   section header .description .row .col:nth-child(1)  button:nth-child(1) a{
+    
+    color: white;
+    font-size: 20px;
+    font-family: poppins;
+   }
+
+   section header .description .row .col:nth-child(1)  button:nth-child(2){
+    background: #ffffff;
+    
+   }
+   section header .description .row .col:nth-child(1)  button:nth-child(2) a{
+    
+   color: #0D4512;
+   font-size: 20px;
+    font-family: poppins;
+   }
+   section header .description .row .col:nth-child(2)  img{
+    
+    width: 738px;
+    height: 738px;
+    }
+
+ 
+
+
+/* *******************************************end HEADER************************************************** */
+
+/* *******************************************start  about************************************************** */
+#about {
+    
+   margin-top:230px ;
+   
+}
+
+#about .row{
+
+  height: 700px;
+    display: flex;
+    align-items: center;
+   gap:40px;
+   flex-wrap: nowrap;
+
+
+}
+#about .row .col:nth-child(1) img{
+ width:700px;
+ height:500px;
+}
+#about .row .col:nth-child(2) {
+ 
+ height: 700px;
+ width: 760px;
+ }
+
+ #about .row .col:nth-child(2)  h1 {
+    font-family: roboto;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 110px;
+    color: #085C11E8;
+  }
+
+  #about .row .col:nth-child(2) p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  #about .row .col:nth-child(2) button{
+    width: 213px;
+    height: 50px;
+    top: 717px;
+    left: 217px;
+    border-radius: 100px;
+    background:#085C11E8;
+  }
+
+  #about .row .col:nth-child(2) button a{
+    color: white;
+    font-size: 20px;
+    font-family: poppins;
+  }
+
+  /* *******************************************end  about************************************************** */
+
+  /* *******************************************start  service************************************************** */
+#service{
+  margin-top: 160px;
+}
+#service > h1 , p , #comment-service > h1,p{
+  text-align: center;
+}
+#service h1 ,#comment-service h1{
+  font-family: roboto,serif;
+
+  font-size: 90px;
+  font-weight: 400;
+  line-height: 110px;
+  color: #085C11E8;
+}
+
+#service p ,#comment-service p{
+  margin-top: 10px;
+ font-family: poppins;
+ color: #141E15;
+ font-size: 20px;
+
+}
+#service .row , #comment-service .row{
+  margin-top: 80px;
+  display: flex;
+  
+  flex-wrap: wrap;
+  gap: 60px;
+
+
+ }
+
+ #service .row .card
+ 
+ {
+  display: flex;
+  align-items: center;
+  line-height: 30px;
+  text-align: center;
+  background: #0D4512E5;
+  width: 450px;
+  height: 400px;
+  border-radius: 30px;
+
+ }
+
+ #service .row .card .container img, #comment-service .row .card img{
+ width: 125px;
+ height: 125px;
+
+ }
+ #service .row .card .container h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+ font-family: poppins;
+ font-size: 40px;
+ color: white;
+
+ }
+ #service .row .card .container P {
+  font-size: 16px;
+  font-family: poppins;
+  color: white;
+  width: 406px;
+height: 86px;
+padding-top: 27px;
+padding-left: 30px;
+
+ }
+
+   /* *******************************************end  service************************************************** */
+
+      /* *******************************************start  comment peapole your service************************************************** */
+#comment-service{
+  margin: 260px 60px;
+}
+
+#comment-service .row .card{
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  line-height: 30px;
+  text-align: center;
+  border:3px solid #0D4512E5;
+  width: 450px;
+  height: 400px;
+  border-radius: 0px 80px 0px 80px;
+}
+
+#comment-service .row .card p{
+  width: 90%;
+}
+
+
+
+   /* *******************************************end  comment peapole your service************************************************** */
+
+
+      /* *******************************************start  footer************************************************** */
+#footer{
+ margin: 170px;
+ line-height: 50px;
+ 
+}
+
+#footer .row:first-child{
+
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  line-height: 40px;
+  padding-bottom: 60px;
+  
+}
+#footer .row:first-child .col:first-child p{
+
+  font-family: poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 36px;
+COLOR: #555555;
+
+
+  
+}
+
+#footer .row:first-child .col h3{
+  font-size: 24px;
+  font-family: poppins;
+  color:#0D4512;
+  line-height: 40px;
+  
+}
+#footer .row:first-child .col P {
+  text-align: left;
+ 
+  
+  
+}
+#footer .row:first-child .col P a{
+ 
+  text-align: left;
+  font-size: 18px;
+  font-family: roboto;
+  color: #555555;
+  line-height: 20px; 
+}
+
+#footer .row:first-child .col P a:hover{
+  color: #0D4512;
+  letter-spacing:10; 
+  font-weight: bold;
+}
+
+#footer .row:nth-child(2) {
+  margin-top: 130px;
+ 
+  flex-wrap: wrap;
+ display: flex;
+ width: 70%;
+
+ align-items: center;
+ justify-content: space-between;
+}
+
+#footer .row:nth-child(2) .col .container {
+ display: flex;
+ gap: 30px;
+
+}
+#footer .row:nth-child(2) .col .container .icone-social {
+  border: 2px solid #0D4512;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 10px;
+  background:linear-gradient(0deg, #EDFFEF, #EDFFEF);
+
+ }
+
+ #footer .row:nth-child(2) .col .container .icone-social i {
+  font-size: 18px;
+  color: #000000;
+ }
+
+
+ 
+ 
+ #footer .row:nth-child(2) .col .container .icone-social:hover{
+  background: #0D4512;
+  
+ }
+
+ #footer .row:nth-child(2) .col .container .icone-social:hover i{
+  color: white;
+  
+ }
+
+ 
+ #footer .row:nth-child(2) .col:nth-child(2){
+  font-family: poppins;
+font-size: 20px;
+font-weight: 500;
+
+
+
+
+ }
